@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="toothGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- جذور الضرس -->
+  <path d="M30 60 C25 80 15 90 20 95 C30 95 35 85 40 75" fill="url(#toothGradient)" stroke="#333" stroke-width="2"/>
+  <path d="M70 60 C75 80 85 90 80 95 C70 95 65 85 60 75" fill="url(#toothGradient)" stroke="#333" stroke-width="2"/>
+  
+  <!-- جسم الضرس -->
+  <path d="M20 45 C20 20 35 10 50 10 C65 10 80 20 80 45 C80 60 75 70 70 70 L30 70 C25 70 20 60 20 45 Z" fill="url(#toothGradient)" stroke="#333" stroke-width="2"/>
+  
+  <!-- خط منتصف الضرس -->
+  <line x1="50" y1="20" x2="50" y2="55" stroke="#333" stroke-width="2"/>
+  
+  <!-- تفاصيل سطح الضرس -->
+  <path d="M35 30 Q42 25 50 30 Q58 35 65 30" fill="none" stroke="#333" stroke-width="2"/>
+</svg>
