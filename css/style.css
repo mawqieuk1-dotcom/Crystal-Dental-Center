@@ -53,7 +53,7 @@ body { font-family: var(--font-arabic); color: var(--black); background: var(--w
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; transition: var(--transition); cursor: pointer; border: none; font-family: var(--font-arabic); }
 .btn-primary { background: var(--primary); color: var(--white); }
 .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 25px rgba(124, 58, 237, 0.3); }
-.btn-outline { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.4); }
+.btn-outline { background: transparent; color: var(--black); border: 1px solid rgb(255, 255, 255); }
 .btn-outline:hover { background: var(--white); color: var(--primary); border-color: var(--white); transform: translateY(-2px); }
 .btn-sm { padding: 8px 16px; font-size: 12px; }
 .btn-lg { padding: 16px 32px; font-size: 16px; }
