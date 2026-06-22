@@ -1,7 +1,5 @@
-/* ==================== MAIN JAVASCRIPT ==================== */
 document.addEventListener('DOMContentLoaded', function() {
 
-    // ==================== HEADER SCROLL ====================
     const header = document.getElementById('header');
     let lastScroll = 0;
     
@@ -23,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
         lastScroll = currentScroll;
     });
 
-    // ==================== MOBILE MENU ====================
     const hamburger = document.getElementById('hamburger');
     const navMenu = document.getElementById('nav-menu');
     
@@ -43,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // ==================== ACTIVE NAV LINK ====================
     const sections = document.querySelectorAll('section[id]');
     window.addEventListener('scroll', () => {
         let scrollY = window.pageYOffset;
@@ -62,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
 
-    // ==================== CONTACT FORM ====================
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
